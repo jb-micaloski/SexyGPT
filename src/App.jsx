@@ -130,7 +130,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className="chat"}}>
+      <div className="chat">
         <MainContainer>
           <ChatContainer>       
             <MessageList 
