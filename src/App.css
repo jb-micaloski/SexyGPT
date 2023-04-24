@@ -5,7 +5,11 @@
   text-align: justify;
 }
 
-.Chat {
+.chat {
+  position: relative;
+  top: 50%;
+  left:50%;
+  tranform: translate(-50%,-50%);
   margin: 0 auto; /* centralizar horizontalmente */
   display: flex;
   flex-direction: column;
