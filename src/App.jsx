@@ -130,7 +130,7 @@ function App() {
 
   return (
     <div className="App">
-      <div style={{ height: 100%, width: 50%  }}>
+      <div style={{ height: "100%", width: "50%"  }}>
         <MainContainer>
           <ChatContainer>       
             <MessageList 
