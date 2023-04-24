@@ -1,7 +1,6 @@
 #root {
-  height: 100%;
-  width: 100%;
-  max-width: 600px; /* ou qualquer outro valor adequado para o design */
+  height: 100vh;
+  width: 100vh;
   margin: 0 auto; /* centralizar horizontalmente */
   display: flex;
   flex-direction: column;
@@ -9,9 +8,8 @@
 }
 
 .Chat {
-  height: 100%;
-  width: 100%;
-  max-width: 600px; /* ou qualquer outro valor adequado para o design */
+  height: 100vh;
+  width: 100vh;
   margin: 0 auto; /* centralizar horizontalmente */
   display: flex;
   flex-direction: column;
