@@ -1,8 +1,11 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  height: 100%;
+  width: 100%;
+  max-width: 600px; /* ou qualquer outro valor adequado para o design */
+  margin: 0 auto; /* centralizar horizontalmente */
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
 }
 
 .Chat {
