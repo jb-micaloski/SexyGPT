@@ -130,9 +130,9 @@ function App() {
 
   return (
     <div className="App">
-      <div style={{ height: "100vh" , width: "100vh"  }}>
+      <div className="chat"}}>
         <MainContainer>
-          <ChatContainer className="Chat">       
+          <ChatContainer>       
             <MessageList 
               scrollBehavior="smooth" 
               typingIndicator={isTyping ? <TypingIndicator content="ChatGPT is typing" /> : null}
