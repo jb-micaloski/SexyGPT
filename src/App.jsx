@@ -88,8 +88,7 @@ function App() {
     // Format messages for Berri API
 
     let apiMessages = chatMessages.map((messageObject) => {
-      let content = messageObject.message;
-      return { content }
+      return messageObject.message;
     });
 
     // Get the request body set up with the model we plan to use
