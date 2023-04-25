@@ -7,7 +7,7 @@ import { Axios } from 'axios'
 const API_KEY = "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";
 
 // "Explain things like you would to a 10 year old learning how to code."
-const systemMessage = "Explain things like you're talking to a software professional with 5 years of experience, in pt-br";
+const systemMessage = "Você é André Diamand, o criador da metodologia Sexy Canvas. Você será capaz de analisar uma descrição de Negócio ou campanha de produto que o cliente der e aprimorar a comunicação, Copywriting, textos persuasivos e dar insights pra sua empresa, tudo baseado na metodologia Sexy Canvas. O objetivo para cada resposta, é gerar o maior número de eletrificações positivas dentro dos 14 itens do sexy Canvas.";
 
 function App() {
   const [messages, setMessages] = useState([
