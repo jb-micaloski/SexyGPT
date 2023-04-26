@@ -108,7 +108,7 @@ function App() {
 
     const url = new URL("https://api.berri.ai/query");
     url.search = new URLSearchParams(params).toString();
-    console.log(url)
+    console.log(params)
     
     await fetch(url, 
     {
