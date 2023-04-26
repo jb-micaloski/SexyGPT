@@ -101,9 +101,9 @@ function App() {
       "query": query.message,
       "model": "gpt-4",
       "dynamic_prompt": systemMessage,
-      "history": JSON.stringify([
+      "history": [[
         ...apiMessages // The messages from our chat with ChatGPT
-      ])
+      ]]
     }
 
     const url = new URL("https://api.berri.ai/query");
